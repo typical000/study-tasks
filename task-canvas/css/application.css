@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #222;
+  color: #eee;
+  font: 14px/24px Arial, serif;
+  position: relative;
+}
+
+.painter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.painter_plot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 170px;
+}
+
+.painter_canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.painter_controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 170px;
+  padding: 20px;
+  border-top: 1px solid #444;
+  background: #333;
+  text-align: center;
+}
+
+.painter_control {
+  margin: 0 20px;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+
+.painter_control__color {
+  max-width: 150px;
+}
+
+.painter_title {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.painter_color {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  margin: 0 10px 20px 0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.painter_color.is-active {
+  border-color: #fff;
+  cursor: default;
+}
+
+.painter_button {
+  display: block;
+  margin-bottom: 10px;
+  width: 200px;
+  color: #eee;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: normal;
+  border: 1px solid #444;
+  background: #666;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.painter_button:hover {
+  opacity: 0.8;
+}

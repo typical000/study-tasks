@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Study task | Canvas
+  </title>
+  <meta content="" name='description'/>
+  <meta content="" name='keywords'/>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+
+  <link href="css/application.css" rel="stylesheet"/>
+  <script src="js/application.js"></script>
+
+</head>
+<body>
+
+  <div class="painter">
+    <div class="painter_plot">
+      <canvas class="painter_canvas" id="painter"></canvas>
+    </div>
+    <div class="painter_controls">
+      <div class="painter_control painter_control__color">
+        <div class="painter_title">
+          Цвет
+        </div>
+        <div class="painter_color is-active" data-color="#ff0000" style="background: #ff0000;"></div>
+        <div class="painter_color" data-color="#00ff00" style="background: #00ff00;"></div>
+        <div class="painter_color" data-color="#0000ff" style="background: #0000ff;"></div>
+        <div class="painter_color" data-color="#ff00ff" style="background: #ff00ff;"></div>
+        <div class="painter_color" data-color="#00ffff" style="background: #00ffff;"></div>
+        <div class="painter_color" data-color="#ffff00" style="background: #ffff00;"></div>
+      </div>
+      <div class="painter_control">
+        <div class="painter_title">
+          Толщина
+        </div>
+        <input type="range" data-size min="0" max="100" step="1" value="20">
+      </div>
+      <div class="painter_control">
+        <div class="painter_title">
+          Прозрачность
+        </div>
+        <input type="range" data-opacity min="0" max="100" step="1" value="100">
+      </div>
+      <div class="painter_control">
+        <div class="painter_title">
+          Действия
+        </div>
+        <button class="painter_button" data-clear>Очистить холст</button>
+        <button class="painter_button" data-save>Сохранить в файл</button>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "postcss-default-unit",
+  "version": "1.0.0",
+  "description": "PostCSS plugin that adds default units to numeric css properties",
+  "author": "Type here your name",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.2.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "chai": "^3.5.0",
+    "eslint": "^3.10.1",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-airbnb-es5": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.7.0",
+    "mocha": "^3.1.2"
+  },
+  "scripts": {
+    "lint": "eslint ./index.js",
+    "test": "mocha",
+    "test:watch": "mocha -w"
+  }
+}
