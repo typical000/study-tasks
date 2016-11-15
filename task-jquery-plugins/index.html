@@ -68,12 +68,17 @@
   </div>
 
   <script>
-    $('#slider').slider();
-    $('#carousel').slider({
+    var $slider = $('#slider').slider();
+    var $carousel = $('#carousel').slider({
       interval: 1000,
       items: 2,
-      loop: true
+      loop: true,
+      callback: function(number) {
+        console.log('Current carousel slide - ' + number);
+      }
     });
+    
+    console.log('Total number of slides - ' + $slider..getSlidesCount());
   </script>
 
 </body>
