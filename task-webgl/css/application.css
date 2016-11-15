@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #222 url(../assets/space.jpg) no-repeat center center;
+  background-size: cover;
+  color: #eee;
+  font: 14px/24px Arial, serif;
+  position: relative;
+}
