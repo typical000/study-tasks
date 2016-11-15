@@ -24,8 +24,10 @@ $slider.getSlidesCount(); // Должно вернуть число
 В файле index.html уже инициализированы слайдеры с необходимыми параметрами для проверки.
 
 ### Литература:
+- [Basic plugin creation. Learn jQuery](https://learn.jquery.com/plugins/basic-plugin-creation/)
+- [Advanced plugin concepts](https://learn.jquery.com/plugins/advanced-plugin-concepts/)
+- [How to develop a jQuery plugin. SitePoint](https://www.sitepoint.com/how-to-develop-a-jquery-plugin/)
 - [Пишем плагин jQuery](https://habrahabr.ru/post/158235/)
 - [Еще пишем плагин](http://xdan.ru/Kak-napisat-plagin-na-jQuery.html#events)
 - [jQuery API](http://api.jquery.com/)
-- [Basic plugin creation. Learn jQuery](https://learn.jquery.com/plugins/basic-plugin-creation/)
-- [How to develop a jQuery plugin. SitePoint](https://www.sitepoint.com/how-to-develop-a-jquery-plugin/)
+- [Performance tips](https://learn.jquery.com/performance/)
