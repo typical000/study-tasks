@@ -1,0 +1,25 @@
+{
+  "extends": "eslint-config-airbnb-es5",
+  "rules": {
+    "func-names": [ 0 ],
+    "space-before-function-paren": [ 0 ],
+    "semi": [ 0 ],
+    "indent": ["error", 4]
+  },
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "backbone"
+  ],
+  "globals": {
+    "Backbone": true,
+    "_": true,
+    "$": true,
+    "app": true,
+    "tpl": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 5
+  }
+}
